@@ -16,3 +16,4 @@ sudo install -d /etc/apt/keyrings
 curl https://repo.powerdns.com/FD380FBB-pub.asc | sudo tee /etc/apt/keyrings/rec-50-pub.asc
 sudo apt-get update
 sudo apt-get install pdns-recursor
+sudo mkdir /var/run/pdns-recursor
